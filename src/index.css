@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root  {
+  
+    font-family: 'Young Serif', serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+:root::-webkit-scrollbar{
+    width: 6px;
+	background-color: #F5F5F5;
+}
+
+.fontmanual{
+font-family: 'Dancing Script', cursive;
+}
+.fontmanual1{
+    font-family: 'Dancing Script', cursive;
+    -webkit-text-stroke: 2px black;
+
+    }
+
+.fontmanual2{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Young Serif', serif;
+    
+    }
+
