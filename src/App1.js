@@ -108,12 +108,12 @@ function App1(){
           </div>
 
           <div className="h-[170px] w-[100%] mb-16">
-            <div className="h-[100%] w-[65%]  ml-48    shadow-xl shadow-black   " >
+            <div className="h-[100%] w-[65%]  ml-36   shadow-xl shadow-black   " >
               <img className='h-[100%] w-[100%] object-cover  shadow-lg shadow-black ' src="https://iiitbhopal.ac.in/images/IIIT-Header.png" alt="coding" />
             </div>
             </div>
             <div className="h-[250px] w-[100%]   ml-8 ">
-             <h1 className="  h-auto text-2xl w-[100%] ml-40 pl-8 fontmanual2 border-l-4   border-l-[#515151]  text-[#515151] ">2nd Year Undergraduate in B-Tech <br />Electronics and Communication Department, 2022-2026 <br />Indian Institute of Information Technology Bhopal<br /><br/>
+             <h1 className="  h-auto text-2xl w-[100%] ml-28 pl-8 fontmanual2 border-l-4   border-l-[#515151]  text-[#515151] ">2nd Year Undergraduate in B-Tech <br />Electronics and Communication Department, 2022-2026 <br />Indian Institute of Information Technology Bhopal<br /><br/>
 
 Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted many events and guided over 500 students through GDSC .
 </h1>
@@ -149,7 +149,7 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
           <h1 className=" fontmanual1 h-auto text-9xl w-[105%] pb-4   text-end  "> {'<=  '}Contact Me</h1>
           </div>
 
-         <div className="h-[270px] w-[100%] mb-16">
+         <div className="h-[270px] w-[100%] mb-16  pl-24">
          <form onSubmit={sendEmail}>
             <input className="mx-10 my-3 px-3 text-lg py-2 bg-[rgba(0,0,0,0.6)] rounded-sm text-white " placeholder="Enter your Name" type="text" /> <br />
             <input  className="mx-10 text-lg px-3 py-2 bg-[rgba(0,0,0,0.6)] h-[50px] w-[1200px] text-white text-start flex flex-nowrap rounded-sm  placeholder:align-top " placeholder="Your message for me." type="text" />
