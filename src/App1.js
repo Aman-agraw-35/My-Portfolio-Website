@@ -1,23 +1,8 @@
 import React,{useRef} from "react";
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 import { faTelegram , faTwitter , faLinkedinIn , faGithub , faHtml5 ,faCss3Alt , faSquareJs } from "@fortawesome/free-brands-svg-icons";
-import emailjs from '@emailjs/browser';
+import Email from "./Email";
 function App1(){
-
-      const form = useRef();
-     
-      const sendEmail = (e) => {
-        e.preventDefault(); // prevents the page from reloading when you hit “Send”
-     
-        emailjs.sendForm( "service_55zmcxj" , 'template_433id9t', form.current, 'cqJoHdfmBAs8trSAI')
-          .then((result) => {
-              // show the user a success message
-
-          }, (error) => {
-              // show the user an error
-          });
-      };
-     
 
 
     return( <div className="h-[auto] w-full bg-gradient-to-r from-[#fb8ff0] to-cyan-400 ;" >
@@ -29,10 +14,10 @@ function App1(){
         <a className="no-underline" href="https://drive.google.com/file/d/1B1A_kotirCP06E_7PJpgNvb5dsWP5U3C/view?usp=share_link" target="_blank" rel="noreferrer" ><div className="h-[100%] w-[200px] rounded-lg  fontmanual  text-black ml-2 flex items-center"><button className="h-[80%] w-[100%] border-[2px] shadow-md shadow-black border-cyan-800 rounded-3xl bg-[rgb(117,255,253)] text-3xl font-black ">My Resume</button></div> 
         </a>
             <div className="h-[100%] w-[290px]  align-middle  items-center justify-center flex flex-row flex-end ">
-                  <div className="w-[33px] h-[33px] fill rounded-full   my-2 mx-2 "><a href="https://t.me/amanagraw35" target="_blank" ><FontAwesomeIcon icon={faTelegram} size="2xl" style={{color: "#212529",}}  /></a></div>
-                  <div className="w-[33px] h-[33px] rounded-full  my-2 mx-2 justify-center align-middle px-[8px]  py-1.5  bg-[#212529] "><a target="_blank" href="https://twitter.com/AmanAgrawal1310"><FontAwesomeIcon icon={faTwitter} size="lg" style={{color: "#4091b2",}} /></a></div>
-                  <div className="w-[33px] h-[33px] rounded-full  my-2 mx-2 justify-center align-middle px-[8px]  py-1.5 bg-[#212529]"><a target="_blank"  href="https://www.linkedin.com/in/aman-agrawal-269233252"><FontAwesomeIcon icon={faLinkedinIn} size="lg"   style={{color: "#4091b2",}}  /></a></div>
-                  <div className="w-[33px] h-[33px] fill rounded-full  my-2 mx-2 justify-center align-middle  bg-[##558bb3] "><a target="_blank" href="https://github.com/Aman-agraw-35"><FontAwesomeIcon icon={faGithub} size="2xl"   style={{color: "#212529",}} /></a></div>
+                  <div className="w-[33px] h-[33px] fill rounded-full   my-2 mx-2 "><a href="https://t.me/amanagraw35" rel="noreferrer" target="_blank" ><FontAwesomeIcon icon={faTelegram} size="2xl" style={{color: "#212529",}}  /></a></div>
+                  <div className="w-[33px] h-[33px] rounded-full  my-2 mx-2 justify-center align-middle px-[8px]  py-1.5  bg-[#212529] "><a target="_blank" rel="noreferrer" href="https://twitter.com/AmanAgrawal1310"><FontAwesomeIcon icon={faTwitter} size="lg" style={{color: "#4091b2",}} /></a></div>
+                  <div className="w-[33px] h-[33px] rounded-full  my-2 mx-2 justify-center align-middle px-[8px]  py-1.5 bg-[#212529]"><a target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/aman-agrawal-269233252"><FontAwesomeIcon icon={faLinkedinIn} size="lg"   style={{color: "#4091b2",}}  /></a></div>
+                  <div className="w-[33px] h-[33px] fill rounded-full  my-2 mx-2 justify-center align-middle  bg-[##558bb3] "><a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35"><FontAwesomeIcon icon={faGithub} size="2xl"   style={{color: "#212529",}} /></a></div>
             </div>
         </div>
         </div>
@@ -41,7 +26,7 @@ function App1(){
       }
 
 
-        <div className="h-[500px] w-full mt-12 pl-36   flex flex-row  ">
+        <div className="h-[500+px] w-full mt-12 pl-36   flex flex-row  ">
           <div className="h-auto w-[53%] ">
           <h1 className=" fontmanual h-auto text-9xl w-[100%] text-white  left-[150px] pb-4 absolute pt-24">Aman Agrawal</h1>
           <h1 className=" fontmanual1 h-auto text-9xl w-[100%] pb-4 pt-24  ">Aman Agrawal</h1>
@@ -111,9 +96,9 @@ function App1(){
           </div>
 
           <div className="h-[170px] w-[100%] mb-16">
-            <div className="h-[100%] w-[65%]  ml-36   shadow-xl shadow-black   " >
+         <a href="https://iiitbhopal.ac.in/#!/" target="_blank" rel="noreferrer" title="visit institute's website" >  <div className="h-[100%] w-[65%]  ml-36   shadow-xl shadow-black   " >
               <img className='h-[100%] w-[100%] object-cover  shadow-lg shadow-black ' src="https://iiitbhopal.ac.in/images/IIIT-Header.png" alt="coding" />
-            </div>
+            </div></a> 
             </div>
             <div className="h-[250px] w-[100%]   ml-8 ">
              <h1 className="  h-auto text-2xl w-[100%] ml-28 pl-8 fontmanual2 border-l-4   border-l-[#515151]  text-[#515151] ">2nd Year Undergraduate in B-Tech <br />Electronics and Communication Department, 2022-2026 <br />Indian Institute of Information Technology Bhopal<br /><br/>
@@ -153,18 +138,12 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
           </div>
 
          <div className="h-[270px] w-[100%] mb-16  pl-24">
-         <form onSubmit={sendEmail}>
-            <input className="mx-10 my-3 px-3 text-lg py-2 bg-[rgba(0,0,0,0.6)] rounded-sm text-white " placeholder="Enter your Name" type="text" /> <br />
-            <input  className="mx-10 text-lg px-3 py-2 bg-[rgba(0,0,0,0.6)] h-[50px] w-[1200px] text-white text-start flex flex-nowrap rounded-sm  placeholder:align-top " placeholder="Your message for me." type="text" />
-            <input onClick={(() => alert('Message Sent Successfully.' ))}
-            className="mx-10 w-[90px] my-3 px-3 text-lg py-2 font-semibold bg-[white] cursor-pointer shadow-md shadow-black text-black rounded-lg"  type="button" value="Submit"
-             />
-         </form>
+         <Email/>
          <div className="h-[20%] w-[270px]  align-middle  justify-center flex flex-row flex-end ">
                   <div className="w-[33px] h-[33px] fill rounded-full   my-2 mr-2 "><a href="https://t.me/amanagraw35" rel="noreferrer"target="_blank" ><FontAwesomeIcon icon={faTelegram} size="2xl" style={{color: "#212529",}}  /></a></div>
                   <div className="w-[33px] h-[33px] rounded-full  my-2 mx-2 justify-center align-middle px-[8px]  py-1.5  bg-[#212529] "><a rel="noreferrer" target="_blank" href="https://twitter.com/AmanAgrawal1310"><FontAwesomeIcon icon={faTwitter} size="lg" style={{color: "#f192f0",}} /></a></div>
                   <div className="w-[33px] h-[33px] rounded-full   my-2 mx-2 justify-center align-middle px-[8px]  py-1.5 bg-[#212529]"><a rel="noreferrer" target="_blank"  href="https://www.linkedin.com/in/aman-agrawal-269233252"><FontAwesomeIcon icon={faLinkedinIn} size="lg"   style={{color: "#f192f0",}}  /></a></div>
-                  <div className="w-[33px] h-[33px] fill rounded-full  my-2 mx-2 justify-center align-middle  bg-[##558bb3] "><a rel="noreferrer" target="_blank" href="https://github.com/Aman-agraw-35"><FontAwesomeIcon icon={faGithub} size="2xl"   style={{color: "#212529",}} /></a></div>
+                  <div className="w-[33px] h-[33px] fill rounded-full   my-2 mx-2 justify-center align-middle  bg-[##558bb3] "><a rel="noreferrer" target="_blank" href="https://github.com/Aman-agraw-35"><FontAwesomeIcon icon={faGithub} size="2xl"   style={{color: "#212529",}} /></a></div>
             </div>
                   </div>
       </div>
