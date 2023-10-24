@@ -10,14 +10,24 @@
    
 }
 :root::-webkit-scrollbar{
-    width: 6px;
+    width: 7px;
 	background-color: #F5F5F5;
 }
-:root::-webkit-scrollbar-button{
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0,0.6);
+    border-radius: 10px;
+  }
+
+:root::-webkit-scrollbar-track{
+    color:blueviolet;
     width: 100%;
     height: 100px;
+    z-index: 2;
 }
-
+:root::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  } 
 .fontmanual{
 font-family: 'Dancing Script', cursive;
 }

@@ -1,6 +1,6 @@
 import React,{useRef} from "react";
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
-import { faTelegram , faTwitter , faLinkedinIn , faGithub , faHtml5 ,faCss3Alt , faSquareJs ,faReact ,faNodeJs} from "@fortawesome/free-brands-svg-icons";
+import { faTelegram , faTwitter , faLinkedinIn , faGithub , faHtml5 ,faCss3Alt , faSquareJs } from "@fortawesome/free-brands-svg-icons";
 import emailjs from '@emailjs/browser';
 function App1(){
 
@@ -26,7 +26,7 @@ function App1(){
       }
        <div className="h-28 w-[100%]  justify-center align-middle items-center flex ">
         <div className="h-[55%] w-[80%] bg-[rgba(0,0,0,0.25)] rounded-[50px] justify-between border-[#382268] border-2 flex flex-row">
-        <a className="no-underline" href="https://drive.google.com/file/d/1B1A_kotirCP06E_7PJpgNvb5dsWP5U3C/view?usp=share_link" target="_blank"><div className="h-[100%] w-[200px] rounded-lg  fontmanual  text-black ml-2 flex items-center"><button className="h-[80%] w-[100%] border-[2px] shadow-md shadow-black border-cyan-800 rounded-3xl bg-[rgb(117,255,253)] text-3xl font-black ">My Resume</button></div> 
+        <a className="no-underline" href="https://drive.google.com/file/d/1B1A_kotirCP06E_7PJpgNvb5dsWP5U3C/view?usp=share_link" target="_blank" rel="noreferrer" ><div className="h-[100%] w-[200px] rounded-lg  fontmanual  text-black ml-2 flex items-center"><button className="h-[80%] w-[100%] border-[2px] shadow-md shadow-black border-cyan-800 rounded-3xl bg-[rgb(117,255,253)] text-3xl font-black ">My Resume</button></div> 
         </a>
             <div className="h-[100%] w-[290px]  align-middle  items-center justify-center flex flex-row flex-end ">
                   <div className="w-[33px] h-[33px] fill rounded-full   my-2 mx-2 "><a href="https://t.me/amanagraw35" target="_blank" ><FontAwesomeIcon icon={faTelegram} size="2xl" style={{color: "#212529",}}  /></a></div>
@@ -66,7 +66,10 @@ function App1(){
 
           <h1 className=" fontmanual h-auto text-9xl absolute left-[36.65%] text-white  w-[100%] pb-4 pt-28">About Me ={`>`} </h1>
           <h1 className=" fontmanual1 h-auto text-9xl w-[100%] pb-4 pt-28">About Me ={`>`} </h1>
-          <h1 className="  h-auto text-2xl w-[100%] fontmanual2 text-[#515151] border-l-4   border-l-[#515151] pr-36 pl-8 ml-40">I'm Aman Agrawal, a dedicated student at IIIT Bhopal with a strong academic foundation, boasting a CGPA of 8.5. I've achieved the prestigious milestone of clearing the IIT JEE, showcasing my academic prowess. Beyond the classroom, I'm deeply passionate about web development and am actively engaged in learning Data Structures and Algorithms (DSA) and Web Development . This blend of technical acumen and problem-solving skills has made me an adept coder. Additionally, I enjoy the strategic intricacies of chess, am an enthusiastic cricketer. My diverse interests reflect my drive for excellence and continuous self-improvement.</h1>
+          <h1 className="  h-auto text-2xl w-[100%] fontmanual2 text-[#515151] border-l-4   border-l-[#515151] pr-36 pl-8 ml-40">I'm Aman Agrawal, a dedicated student at IIIT Bhopal with a strong
+           academic foundation, boasting a CGPA of 8.5. I've achieved the prestigious milestone of clearing the IIT JEE, showcasing my academic prowess. Beyond the classroom, I'm deeply passionate about 
+           web development and am actively engaged in learning Data Structures and Algorithms (DSA) and Web Development . This blend of technical acumen and problem-solving skills has made me an
+             adept coder. Additionally, I enjoy the strategic intricacies of chess, am an enthusiastic cricketer. My diverse interests reflect my drive for excellence and continuous self-improvement.</h1>
          
           </div>
           <div className="h-auto w-[40%] ">
@@ -129,9 +132,9 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
           <h1 className=" fontmanual1 h-auto text-9xl w-[105%] pb-12 pt-24">Projects {'=>'}</h1>
        </div>
        <div class="h-[350px] gap-4  w-[76%] fontmanual2 grid grid-cols-3 grid-rows-1 mx-auto  text-[#515151]  ">
-                   <div class="h-[90%] flex flex-col items-center rounded-lg "> <a target="_blank" href="https://github.com/Aman-agraw-35/GHOST-GAMES-" title="View Code "> <img className="object-cover rounded-3xl h-[250px] w-[100%] mb-3 " src="https://moewalls.com/wp-content/uploads/2023/01/ghost-call-of-duty-modern-warfare-ii-thumb-728x410.jpg" alt="" /> </a> <h1 className="text-2xl">Ghost Games</h1></div>
-                   <div class="h-[90%] flex flex-col items-center rounded-lg "> <a target="_blank" href="https://github.com/Aman-agraw-35/Netflix-Clone" title="View Code " ><img className="object-cover rounded-3xl h-[250px] w-[100%] mb-3 " src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV0ZmxpeCUyMGxvZ298ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" /> </a> <h1 className="text-2xl">Netflix Clone</h1></div>
-                   <div class="h-[90%] flex flex-col items-center rounded-lg "> <a target="_blank" href="https://github.com/Aman-agraw-35/My-Portfolio-Website" title="View Code "><img className="object-cover  rounded-3xl h-[250px] w-[100%] mb-3 " src="https://as1.ftcdn.net/v2/jpg/03/77/80/70/1000_F_377807035_Gk9hp790Ync54P4kyZ8CNV5NCUGgWSuc.jpg" alt="" /> </a> <h1 className="text-2xl">Portfolio Website</h1></div>
+                   <div class="h-[90%] flex flex-col items-center rounded-lg "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/GHOST-GAMES-" title="View Code "> <img className="object-cover rounded-3xl h-[250px] w-[100%] mb-3 " src="https://moewalls.com/wp-content/uploads/2023/01/ghost-call-of-duty-modern-warfare-ii-thumb-728x410.jpg" alt="" /> </a> <h1 className="text-2xl">Ghost Games</h1></div>
+                   <div class="h-[90%] flex flex-col items-center rounded-lg "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/Netflix-Clone" title="View Code " ><img className="object-cover rounded-3xl h-[250px] w-[100%] mb-3 " src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV0ZmxpeCUyMGxvZ298ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" /> </a> <h1 className="text-2xl">Netflix Clone</h1></div>
+                   <div class="h-[90%] flex flex-col items-center rounded-lg "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/My-Portfolio-Website" title="View Code "><img className="object-cover  rounded-3xl h-[250px] w-[100%] mb-3 " src="https://as1.ftcdn.net/v2/jpg/03/77/80/70/1000_F_377807035_Gk9hp790Ync54P4kyZ8CNV5NCUGgWSuc.jpg" alt="" /> </a> <h1 className="text-2xl">Portfolio Website</h1></div>
                    {/* <div class="h-[90%] flex flex-col items-center rounded-lg "><img className="object-cover rounded-3xl h-[230%] w-[100%] mb-3 " src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV0ZmxpeCUyMGxvZ298ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" /><h1 className="text-2xl">Netflix Clone</h1></div> */}
                    
        </div>
