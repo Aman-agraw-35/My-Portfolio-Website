@@ -11,19 +11,21 @@ function App1(){
 
 
     return(  <>
-    <div className="h-[auto] w-full bg-gradient-to-r from-[#fb8ff0] to-cyan-400 relative opacity-100 brightness-[180%] contrast-more: flex flex-col " id="app" >
+            <ThreeJsCanvas/>
+
+    <div className="h-[auto] w-full bg-gradient-to-r from-[#fb8ff0] to-cyan-400 relative opacity-[1] brightness-[140%] s flex flex-col " id="app" >
 
       {//.............................................................................Navbar.............................................................................................
       }
        <div className="h-28 w-[100%]  justify-center align-middle items-center flex ">
         <div className="h-[55%] w-[80%] bg-[rgba(0,0,0,0.25)] rounded-[50px] justify-between border-[#382268] border-2 flex flex-row">
-        <a className="no-underline" href="https://drive.google.com/file/d/1B1A_kotirCP06E_7PJpgNvb5dsWP5U3C/view?usp=share_link" target="_blank" rel="noreferrer" ><div className="h-[100%] w-[200px] rounded-lg  fontmanual  text-black ml-2 flex items-center"><button className="h-[80%] w-[100%] border-[2px] shadow-md shadow-black border-cyan-800 rounded-3xl bg-[rgb(117,255,253)] text-3xl font-black ">My Resume</button></div> 
+        <a className="no-underline brightness-75 " href="https://drive.google.com/file/d/1B1A_kotirCP06E_7PJpgNvb5dsWP5U3C/view?usp=share_link" target="_blank" rel="noreferrer" ><div className="h-[100%] w-[200px] rounded-lg  fontmanual  text-black ml-2 flex items-center"><button className="h-[80%] w-[100%] border-[2px] shadow-md shadow-black border-cyan-800 rounded-3xl bg-[rgb(117,255,253)] text-3xl font-black ">My Resume</button></div> 
         </a>
             <div className="h-[100%] w-[290px]  align-middle  items-center justify-center flex flex-row flex-end ">
-                  <div className="w-[33px] h-[33px] fill rounded-full   my-2 mx-2 "><a href="https://t.me/amanagraw35" rel="noreferrer" target="_blank" ><FontAwesomeIcon icon={faTelegram} size="2xl" style={{color: "#212529",}}  /></a></div>
-                  <div className="w-[33px] h-[33px] rounded-full  my-2 mx-2 justify-center align-middle px-[8px]  py-1.5  bg-[#212529] "><a target="_blank" rel="noreferrer" href="https://twitter.com/AmanAgrawal1310"><FontAwesomeIcon icon={faTwitter} size="lg" style={{color: "#4091b2",}} /></a></div>
-                  <div className="w-[33px] h-[33px] rounded-full  my-2 mx-2 justify-center align-middle px-[8px]  py-1.5 bg-[#212529]"><a target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/aman-agrawal-269233252"><FontAwesomeIcon icon={faLinkedinIn} size="lg"   style={{color: "#4091b2",}}  /></a></div>
-                  <div className="w-[33px] h-[33px] fill rounded-full  my-2 mx-2 justify-center align-middle  bg-[##558bb3] "><a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35"><FontAwesomeIcon icon={faGithub} size="2xl"   style={{color: "#212529",}} /></a></div>
+                  <div className="w-[33px] h-[33px] fill rounded-full brightness-75  my-2 mx-2 "><a href="https://t.me/amanagraw35" rel="noreferrer" target="_blank" ><FontAwesomeIcon icon={faTelegram} size="2xl" style={{color: "#212529",}}  /></a></div>
+                  <div className="w-[33px] h-[33px] rounded-full  my-2 brightness-75 mx-2 justify-center align-middle px-[8px]  py-1.5  bg-[#212529] "><a target="_blank" rel="noreferrer" href="https://twitter.com/AmanAgrawal1310"><FontAwesomeIcon icon={faTwitter} size="lg" style={{color: "#4091b2",}} /></a></div>
+                  <div className="w-[33px] h-[33px] rounded-full  my-2 brightness-75 mx-2 justify-center align-middle px-[8px]  py-1.5 bg-[#212529]"><a target="_blank"  rel="noreferrer" href="https://www.linkedin.com/in/aman-agrawal-269233252"><FontAwesomeIcon icon={faLinkedinIn} size="lg"   style={{color: "#4091b2",}}  /></a></div>
+                  <div className="w-[33px] h-[33px] fill rounded-full brightness-75  my-2 mx-2 justify-center align-middle  bg-[##558bb3] "><a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35"><FontAwesomeIcon icon={faGithub} size="2xl"   style={{color: "#212529",}} /></a></div>
             </div>
         </div>
         </div>
@@ -43,7 +45,7 @@ function App1(){
           </div>
           <div className="h-full w-[47%] flex   ">
             <div className="h-[440px] w-[440px] rounded-full  flex my-[100px] ">
-               <img className='h-full w-full fill rounded-full'src="/resources/pp.jpeg" alt="" />
+               <img className='h-full w-full fill rounded-full brightness-75'src="/resources/pp.jpeg" alt="" />
             </div>
           </div>
        </div>
@@ -65,7 +67,7 @@ function App1(){
           </div>
           <div className="h-auto w-[40%] ">
             <div className="h-[75%] w-[90%] mt-32 ml-48  rounded-[100%]  shadow-2xl shadow-black  " >
-               <img className='h-[100%] w-[100%] fill rounded-[100%] shadow-lg shadow-black ' src="https://miro.medium.com/v2/resize:fit:1400/0*5uVFmvYDZ5GAYkif" alt="coding" />
+               <img className='h-[100%] w-[100%] fill rounded-[100%] shadow-lg shadow-black brightness-75 ' src="https://miro.medium.com/v2/resize:fit:1400/0*5uVFmvYDZ5GAYkif" alt="coding" />
             </div>
           </div>
        </div>
@@ -79,15 +81,15 @@ function App1(){
           <h1 className=" fontmanual1 h-auto text-9xl w-[100%] pb-4 pt-36">Skills Gained {'=>'}</h1>
        </div>
        <div class="h-[230px] text-4xl gap-3 w-[80%] fontmanual2 grid grid-cols-3 grid-rows-3  text-[#515151]  ">
-                   <div class=" flex flex-row items-center  "><FontAwesomeIcon icon={faHtml5} size="2xl" style={{color: "#e75608", marginLeft :"5px" }}  /><h1 className="text-2xl pl-8 ">Html</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●●</span></div>
-                   <div class=" flex flex-row items-center"><FontAwesomeIcon icon={faCss3Alt} size="2xl" style={{color: "#2d53e7", marginLeft :"5px" }} /><h1 className="text-2xl pl-8 ">Css</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●●</span></div>
-                   <div class="flex flex-row items-center"><FontAwesomeIcon icon={faSquareJs} size="2xl" style={{color: "#f7a025",}} /><h1 className="text-2xl pl-8 ">Javascript</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●</span></div>
-                   <div class="flex flex-row items-center"><img className="h-[65px] w-[65px] rounded-lg object-cover " src="https://sandny.com/wp-content/uploads/2021/07/logo-og-730x350.png" alt="React" /><h1 className="text-2xl pl-6 ">React</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●</span></div>
-                   <div class="flex flex-row items-center"><img className="h-[65px] w-[65px] rounded-lg"  src="https://icons-for-free.com/iconfiles/png/512/js+library+long+shadow+nodejs+web+icon-1320184850167478047.png" alt="Node" /><h1 className="text-2xl pl-6 ">Node</h1><span className="pl-4 pb-3" arial-label="6/6">●●●</span></div>
-                   <div class="flex flex-row items-center"><img className="h-[65px] w-[65px] rounded-lg" src="https://play-lh.googleusercontent.com/YN4OEsoWsU1QrZFcwWlI8uuGhDKc4RAlP56FFyL03VFegD5tWjZ5cNWHocC_QRE_TvA" alt="tailwind" /><h1 className="text-2xl pl-8 ">Tailwind</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●</span></div> 
-                   <div class="flex flex-row items-center"><img className="h-[65px] w-[65px] rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk6UzrSiHRjo-rGRwOy8sSYgr9dVA8V6b71A&usqp=CAU" alt="Bootstrap" /><h1 className="text-2xl pl-6 ">Bootstrap</h1><span className="pl-4 pb-2" arial-label="6/6">●●●●</span></div>
-                   <div class="flex flex-row items-center"><img className="h-[65px] w-[65px] rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8WjzJOqg8FnUhwR-ybrlznTAnfavaF2CnZ-NokuOEcu5PpUOMtzdXJJilatz5RXY_WE&usqp=CAU" alt="MongoDb" /><h1 className="text-2xl pl-6  ">MongoDb</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●</span></div>
-                   <div class="flex flex-row items-center"><img className="h-[65px] w-[65px] rounded-lg object-cover " src="https://www.freecodecamp.org/news/content/images/2021/08/vscode.png" alt="VsCode" /><h1 className="text-2xl pl-9 ">VScode</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●●</span></div>
+                   <div class=" flex flex-row items-center brightness-75 "><FontAwesomeIcon icon={faHtml5} size="2xl" style={{color: "#e75608", marginLeft :"5px" }}  /><h1 className="text-2xl pl-8 ">Html</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●●</span></div>
+                   <div class=" flex flex-row items-center brightness-75 "><FontAwesomeIcon icon={faCss3Alt} size="2xl" style={{color: "#2d53e7", marginLeft :"5px" }} /><h1 className="text-2xl pl-8 ">Css</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●●</span></div>
+                   <div class="flex flex-row items-center brightness-75 "><FontAwesomeIcon icon={faSquareJs} size="2xl" style={{color: "#f7a025",}} /><h1 className="text-2xl pl-8 ">Javascript</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●</span></div>
+                   <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg object-cover " src="https://sandny.com/wp-content/uploads/2021/07/logo-og-730x350.png" alt="React" /><h1 className="text-2xl pl-6 ">React</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●</span></div>
+                   <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg"  src="https://icons-for-free.com/iconfiles/png/512/js+library+long+shadow+nodejs+web+icon-1320184850167478047.png" alt="Node" /><h1 className="text-2xl pl-6 ">Node</h1><span className="pl-4 pb-3" arial-label="6/6">●●●</span></div>
+                   <div class="flex flex-row items-center brightness-75"><img className="h-[65px] w-[65px] rounded-lg" src="https://play-lh.googleusercontent.com/YN4OEsoWsU1QrZFcwWlI8uuGhDKc4RAlP56FFyL03VFegD5tWjZ5cNWHocC_QRE_TvA" alt="tailwind" /><h1 className="text-2xl pl-8 ">Tailwind</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●</span></div> 
+                   <div class="flex flex-row items-center brightness-75"><img className="h-[65px] w-[65px] rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk6UzrSiHRjo-rGRwOy8sSYgr9dVA8V6b71A&usqp=CAU" alt="Bootstrap" /><h1 className="text-2xl pl-6 ">Bootstrap</h1><span className="pl-4 pb-2" arial-label="6/6">●●●●</span></div>
+                   <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8WjzJOqg8FnUhwR-ybrlznTAnfavaF2CnZ-NokuOEcu5PpUOMtzdXJJilatz5RXY_WE&usqp=CAU" alt="MongoDb" /><h1 className="text-2xl pl-6  ">MongoDb</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●</span></div>
+                   <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg object-cover " src="https://www.freecodecamp.org/news/content/images/2021/08/vscode.png" alt="VsCode" /><h1 className="text-2xl pl-9 ">VScode</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●●</span></div>
        </div>
 
        </div>
@@ -102,7 +104,7 @@ function App1(){
           </div>
 
           <div className="h-[170px] w-[100%] mb-16">
-         <a href="https://iiitbhopal.ac.in/#!/" target="_blank" rel="noreferrer" title="visit institute's website" >  <div className="h-[100%] w-[65%]  ml-36   shadow-xl shadow-black   " >
+         <a href="https://iiitbhopal.ac.in/#!/" target="_blank" rel="noreferrer" title="visit institute's website" >  <div className="h-[100%] w-[65%]  ml-36  brightness-75  shadow-xl shadow-black   " >
               <img className='h-[100%] w-[100%] object-cover  shadow-lg shadow-black ' src="https://iiitbhopal.ac.in/images/IIIT-Header.png" alt="coding" />
             </div></a> 
             </div>
@@ -123,9 +125,9 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
           <h1 className=" fontmanual1 h-auto text-9xl w-[105%] pb-12 pt-24">Projects {'=>'}</h1>
        </div>
        <div class="h-[350px] gap-4  w-[76%] fontmanual2 grid grid-cols-3 grid-rows-1 mx-auto  text-[#515151]  ">
-                   <div class="h-[90%] flex flex-col items-center rounded-lg "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/GHOST-GAMES-" title="View Code "> <img className="object-cover rounded-3xl h-[250px] w-[100%] mb-3 " src="https://moewalls.com/wp-content/uploads/2023/01/ghost-call-of-duty-modern-warfare-ii-thumb-728x410.jpg" alt="" /> </a> <h1 className="text-2xl">Ghost Games</h1></div>
-                   <div class="h-[90%] flex flex-col items-center rounded-lg "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/Netflix-Clone" title="View Code " ><img className="object-cover rounded-3xl h-[250px] w-[100%] mb-3 " src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV0ZmxpeCUyMGxvZ298ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" /> </a> <h1 className="text-2xl">Netflix Clone</h1></div>
-                   <div class="h-[90%] flex flex-col items-center rounded-lg "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/My-Portfolio-Website" title="View Code "><img className="object-cover  rounded-3xl h-[250px] w-[100%] mb-3 " src="https://as1.ftcdn.net/v2/jpg/03/77/80/70/1000_F_377807035_Gk9hp790Ync54P4kyZ8CNV5NCUGgWSuc.jpg" alt="" /> </a> <h1 className="text-2xl">Portfolio Website</h1></div>
+                   <div class="h-[90%] flex flex-col items-center rounded-lg brightness-75 "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/GHOST-GAMES-" title="View Code "> <img className="object-cover rounded-3xl h-[250px] w-[100%] mb-3 " src="https://moewalls.com/wp-content/uploads/2023/01/ghost-call-of-duty-modern-warfare-ii-thumb-728x410.jpg" alt="" /> </a> <h1 className="text-2xl">Ghost Games</h1></div>
+                   <div class="h-[90%] flex flex-col items-center rounded-lg brightness-75 "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/Netflix-Clone" title="View Code " ><img className="object-cover rounded-3xl h-[250px] w-[100%] mb-3 " src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV0ZmxpeCUyMGxvZ298ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" /> </a> <h1 className="text-2xl">Netflix Clone</h1></div>
+                   <div class="h-[90%] flex flex-col items-center rounded-lg brightness-75 "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/My-Portfolio-Website" title="View Code "><img className="object-cover  rounded-3xl h-[250px] w-[100%] mb-3 " src="https://as1.ftcdn.net/v2/jpg/03/77/80/70/1000_F_377807035_Gk9hp790Ync54P4kyZ8CNV5NCUGgWSuc.jpg" alt="" /> </a> <h1 className="text-2xl">Portfolio Website</h1></div>
                    {/* <div class="h-[90%] flex flex-col items-center rounded-lg "><img className="object-cover rounded-3xl h-[230%] w-[100%] mb-3 " src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV0ZmxpeCUyMGxvZ298ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" /><h1 className="text-2xl">Netflix Clone</h1></div> */}
                    
        </div>
@@ -146,10 +148,10 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
          <div className="h-[270px] w-[100%] mb-16  pl-24">
          <Email/>
          <div className="h-[20%] w-[270px]  align-middle  justify-center flex flex-row flex-end ">
-                  <div className="w-[33px] h-[33px] fill rounded-full   my-2 mr-2 "><a href="https://t.me/amanagraw35" rel="noreferrer"target="_blank" ><FontAwesomeIcon icon={faTelegram} size="2xl" style={{color: "#212529",}}  /></a></div>
-                  <div className="w-[33px] h-[33px] rounded-full  my-2 mx-2 justify-center align-middle px-[8px]  py-1.5  bg-[#212529] "><a rel="noreferrer" target="_blank" href="https://twitter.com/AmanAgrawal1310"><FontAwesomeIcon icon={faTwitter} size="lg" style={{color: "#f192f0",}} /></a></div>
-                  <div className="w-[33px] h-[33px] rounded-full   my-2 mx-2 justify-center align-middle px-[8px]  py-1.5 bg-[#212529]"><a rel="noreferrer" target="_blank"  href="https://www.linkedin.com/in/aman-agrawal-269233252"><FontAwesomeIcon icon={faLinkedinIn} size="lg"   style={{color: "#f192f0",}}  /></a></div>
-                  <div className="w-[33px] h-[33px] fill rounded-full   my-2 mx-2 justify-center align-middle  bg-[##558bb3] "><a rel="noreferrer" target="_blank" href="https://github.com/Aman-agraw-35"><FontAwesomeIcon icon={faGithub} size="2xl"   style={{color: "#212529",}} /></a></div>
+                  <div className="w-[33px] h-[33px] brightness-75 fill rounded-full   my-2 mr-2 "><a href="https://t.me/amanagraw35" rel="noreferrer"target="_blank" ><FontAwesomeIcon icon={faTelegram} size="2xl" style={{color: "#212529",}}  /></a></div>
+                  <div className="w-[33px] h-[33px] brightness-75 rounded-full  my-2 mx-2 justify-center align-middle px-[8px]  py-1.5  bg-[#212529] "><a rel="noreferrer" target="_blank" href="https://twitter.com/AmanAgrawal1310"><FontAwesomeIcon icon={faTwitter} size="lg" style={{color: "#f192f0",}} /></a></div>
+                  <div className="w-[33px] h-[33px] brightness-75 rounded-full   my-2 mx-2 justify-center align-middle px-[8px]  py-1.5 bg-[#212529]"><a rel="noreferrer" target="_blank"  href="https://www.linkedin.com/in/aman-agrawal-269233252"><FontAwesomeIcon icon={faLinkedinIn} size="lg"   style={{color: "#f192f0",}}  /></a></div>
+                  <div className="w-[33px] h-[33px] brightness-75  fill rounded-full   my-2 mx-2 justify-center align-middle  bg-[##558bb3] "><a rel="noreferrer" target="_blank" href="https://github.com/Aman-agraw-35"><FontAwesomeIcon icon={faGithub} size="2xl"   style={{color: "#212529",}} /></a></div>
             </div>
                   </div>
       </div>
@@ -157,7 +159,7 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
           
 
         </div>
-       <ThreeJsCanvas/>
+
          </>
     );
 }

@@ -50,10 +50,16 @@ canvas { width : 100% !important ;
        align-items: center !important;
        justify-content: center !important ;
        background-color: transparent !important;
-       opacity: 45% !important;
-   filter: contrast(200%);      
-   filter: saturate(200%); 
+       opacity: 30% !important;
+       z-index: -10 !important;
+   filter: contrast(00%);      
+   filter: saturate(0%); 
 }
 .none {
     height : 0px !important;
+}
+
+h1{
+    filter: contrast(1.5);
+
 }
