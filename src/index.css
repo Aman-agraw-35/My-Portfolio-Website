@@ -9,6 +9,7 @@
     scroll-behavior: smooth;
    
 }
+
 :root::-webkit-scrollbar{
     width: 7px;
 	background-color: #F5F5F5;
@@ -42,4 +43,17 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Young Serif', serif;
     
     }
-
+canvas { width : 100% !important ;
+       color: transparent !important;
+       position: absolute  !important ;
+       display: flex !important;
+       align-items: center !important;
+       justify-content: center !important ;
+       background-color: transparent !important;
+       opacity: 45% !important;
+   filter: contrast(200%);      
+   filter: saturate(200%); 
+}
+.none {
+    height : 0px !important;
+}

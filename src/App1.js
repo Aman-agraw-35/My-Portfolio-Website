@@ -1,11 +1,17 @@
-import React,{useRef} from "react";
+import React,{useRef,useEffect} from "react";
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 import { faTelegram , faTwitter , faLinkedinIn , faGithub , faHtml5 ,faCss3Alt , faSquareJs } from "@fortawesome/free-brands-svg-icons";
 import Email from "./Email";
+import ThreeJsCanvas from   "./Canvas";
+
 function App1(){
 
 
-    return( <div className="h-[auto] w-full bg-gradient-to-r from-[#fb8ff0] to-cyan-400 ;" >
+
+
+
+    return(  <>
+    <div className="h-[auto] w-full bg-gradient-to-r from-[#fb8ff0] to-cyan-400 relative opacity-100 brightness-[180%] contrast-more: flex flex-col " id="app" >
 
       {//.............................................................................Navbar.............................................................................................
       }
@@ -148,9 +154,11 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
                   </div>
       </div>
 
-
+          
 
         </div>
+       <ThreeJsCanvas/>
+         </>
     );
 }
 export default App1 
