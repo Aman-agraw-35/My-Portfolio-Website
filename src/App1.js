@@ -34,10 +34,9 @@ function App1(){
       }
 
 
-        <div className="h-[500+px] w-full mt-12 pl-36   flex flex-row  ">
-          <div className="h-auto w-[53%] ">
-          <h1 className=" fontmanual h-auto text-9xl w-[100%] text-white  left-[150px] pb-4 absolute pt-24">Aman Agrawal</h1>
-          <h1 className=" fontmanual1 h-auto text-9xl w-[100%] pb-4 pt-24  ">Aman Agrawal</h1>
+        <div className="h-[70vh] w-full mt-12 pl-36   flex flex-col-reverse lg:flex-row ">
+          <div className="h-auto w-[53%] flex flex-col">
+          <h1 className=" fontmanual h-auto  text-[18vh] w-[100%] text-white bef  pb-4 relative pt-24" >Aman Agrawal</h1>
           <h1 className="  h-auto text-4xl w-[100%] fontmanual2 text-[#515151] ">I'm a full-stack web magician.</h1>
            <div className='h-[97px] w-[290] mt-8  border-l-4 border-l-[#515151]' >
            <h1 className="  h-auto text-2xl w-[55%] pl-6 fontmanual2 text-[#515151] ">A grooming web developer and an engineering student at IIIT Bhopal.</h1>
@@ -45,7 +44,7 @@ function App1(){
           </div>
           <div className="h-full w-[47%] flex   ">
             <div className="h-[440px] w-[440px] rounded-full  flex my-[100px] ">
-               <img className='h-full w-full fill rounded-full brightness-75'src="/resources/pp.jpeg" alt="" />
+               <img className='h-[440px] w-[440px]  fill rounded-full brightness-75'src="/resources/pp.jpeg" alt="" />
             </div>
           </div>
        </div>
@@ -57,9 +56,9 @@ function App1(){
        <div className="h-[650px] w-full  pr-36   flex flex-row-reverse  ">
           <div className="h-auto w-[60%]  ">
 
-          <h1 className=" fontmanual h-auto text-9xl absolute left-[36.65%] text-white  w-[100%] pb-4 pt-28">About Me ={`>`} </h1>
-          <h1 className=" fontmanual1 h-auto text-9xl w-[100%] pb-4 pt-28">About Me ={`>`} </h1>
-          <h1 className="  h-auto text-2xl w-[100%] fontmanual2 text-[#515151] border-l-4   border-l-[#515151] pr-36 pl-8 ml-40">I'm Aman Agrawal, a dedicated student at IIIT Bhopal with a strong
+          <h1 className=" fontmanual about h-auto  text-[18vh] absolute z-10 text-white  w-[50%] pb-4 pt-28">About Me ={`>`} </h1>
+          {/* <h1 className=" fontmanual1 h-auto text-9xl w-[100%] pb-4 pt-28">About Me ={`>`} </h1> */}
+          <h1 className="  h-auto text-2xl w-[82%] fontmanual2 text-[#515151] border-l-4 mt-[260px]  border-l-[#515151]  ml-40 pl-10 ">I'm Aman Agrawal, a dedicated student at IIIT Bhopal with a strong
            academic foundation, boasting a CGPA of 8.5. I've achieved the prestigious milestone of clearing the IIT JEE, showcasing my academic prowess. Beyond the classroom, I'm deeply passionate about 
            web development and am actively engaged in learning Data Structures and Algorithms (DSA) and Web Development . This blend of technical acumen and problem-solving skills has made me an
              adept coder. Additionally, I enjoy the strategic intricacies of chess, am an enthusiastic cricketer. My diverse interests reflect my drive for excellence and continuous self-improvement.</h1>
@@ -74,13 +73,13 @@ function App1(){
 
 
 
-       <div className="h-[550px] w-full  pl-36  flex flex-col  ">
-          <div className="h-auto w-[70%] ">
-          <h1 className=" fontmanual h-auto text-9xl w-[100%] absolute left-[9.8%] text-white pb-4 pt-36">Skills Gained {'=>'}</h1>
+       <div className="h-[550px] w-full   pl-36  flex flex-col   ">
+          <div className="h-auto w-[70%] relative ">
+          <h1 className=" fontmanual h-auto  text-[18vh] w-[100%] absolute  text-white abo pb-4 pt-36">Skills Gained {'=>'}</h1>
 
-          <h1 className=" fontmanual1 h-auto text-9xl w-[100%] pb-4 pt-36">Skills Gained {'=>'}</h1>
+          {/* <h1 className=" fontmanual1 h-auto text-9xl w-[100%] pb-4 pt-36 abo">Skills Gained {'=>'}</h1> */}
        </div>
-       <div class="h-[230px] text-4xl gap-3 w-[80%] fontmanual2 grid grid-cols-3 grid-rows-3  text-[#515151]  ">
+       <div class="h-[230px] text-4xl gap-3 w-[80%] mt-[43vh] fontmanual2  grid grid-cols-3 grid-rows-3  text-[#515151]  ">
                    <div class=" flex flex-row items-center brightness-75 "><FontAwesomeIcon icon={faHtml5} size="2xl" style={{color: "#e75608", marginLeft :"5px" }}  /><h1 className="text-2xl pl-8 ">Html</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●●</span></div>
                    <div class=" flex flex-row items-center brightness-75 "><FontAwesomeIcon icon={faCss3Alt} size="2xl" style={{color: "#2d53e7", marginLeft :"5px" }} /><h1 className="text-2xl pl-8 ">Css</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●●</span></div>
                    <div class="flex flex-row items-center brightness-75 "><FontAwesomeIcon icon={faSquareJs} size="2xl" style={{color: "#f7a025",}} /><h1 className="text-2xl pl-8 ">Javascript</h1><span className="pl-4 pb-3" arial-label="6/6">●●●●●</span></div>
@@ -98,9 +97,9 @@ function App1(){
 
        <div className="h-auto  w-full  pr-36   flex flex-col mt-40 ">
           <div className="h-[170px] w-[84%]  ">
-          <h1 className=" fontmanual h-auto text-9xl w-[105%] pb-4 absolute left-[37%] text-white  "> {'<= '}Education</h1>
+          <h1 className=" fontmanual h-auto  text-[18vh] w-[50%] pb-4 absolute left-[37%] text-white abou "> {'<= '}Education</h1>
 
-          <h1 className=" fontmanual1 h-auto text-9xl w-[100.6%] pb-4   text-end  "> {'<= '}Education</h1>
+          {/* <h1 className=" fontmanual1 h-auto text-9xl w-[100.6%] pb-4   text-end  "> {'<= '}Education</h1> */}
           </div>
 
           <div className="h-[170px] w-[100%] mb-16">
@@ -118,13 +117,13 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
        </div>
 
 
-       <div className="h-[650px] w-full   flex flex-col  ">
+       <div className="h-[650px] w-full   flex flex-col ">
           <div className="h-auto w-[70%]  pl-36  ">
-          <h1 className=" fontmanual h-auto text-9xl w-[105%] absolute left-[9%] text-white  pb-12 pt-24">Projects {'=>'}</h1>
+          <h1 className=" fontmanual h-auto  text-[18vh] w-[70%] ab absolute   text-white  pb-12 pt-24">Projects {'=>'}</h1>
 
-          <h1 className=" fontmanual1 h-auto text-9xl w-[105%] pb-12 pt-24">Projects {'=>'}</h1>
+          {/* <h1 className=" fontmanual1 h-auto text-9xl w-[105%] pb-12 pt-24">Projects {'=>'}</h1> */}
        </div>
-       <div class="h-[350px] gap-4  w-[76%] fontmanual2 grid grid-cols-3 grid-rows-1 mx-auto  text-[#515151]  ">
+       <div class="h-[350px] gap-4  w-[76%] fontmanual2 grid grid-cols-3 grid-rows-1 mx-auto  mt-[40vh]  text-[#515151]  ">
                    <div class="h-[90%] flex flex-col items-center rounded-lg brightness-75 "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/GHOST-GAMES-" title="View Code "> <img className="object-cover rounded-3xl h-[250px] w-[100%] mb-3 " src="https://moewalls.com/wp-content/uploads/2023/01/ghost-call-of-duty-modern-warfare-ii-thumb-728x410.jpg" alt="" /> </a> <h1 className="text-2xl">Ghost Games</h1></div>
                    <div class="h-[90%] flex flex-col items-center rounded-lg brightness-75 "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/Netflix-Clone" title="View Code " ><img className="object-cover rounded-3xl h-[250px] w-[100%] mb-3 " src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV0ZmxpeCUyMGxvZ298ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" /> </a> <h1 className="text-2xl">Netflix Clone</h1></div>
                    <div class="h-[90%] flex flex-col items-center rounded-lg brightness-75 "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/My-Portfolio-Website" title="View Code "><img className="object-cover  rounded-3xl h-[250px] w-[100%] mb-3 " src="https://as1.ftcdn.net/v2/jpg/03/77/80/70/1000_F_377807035_Gk9hp790Ync54P4kyZ8CNV5NCUGgWSuc.jpg" alt="" /> </a> <h1 className="text-2xl">Portfolio Website</h1></div>
@@ -141,8 +140,8 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
       
       <div className="h-auto  w-full  pr-36 pt-12  flex flex-col  ">
           <div className="h-[170px] w-[84%]  ">
-          <h1 className=" fontmanual h-auto text-9xl w-[105%] pb-4   text-center  absolute left-[5.1%] text-white "> {'<=  '}Contact Me</h1>
-          <h1 className=" fontmanual1 h-auto text-9xl w-[105%] pb-4   text-end  "> {'<=  '}Contact Me</h1>
+          <h1 className=" fontmanual h-auto  text-[18vh] w-[60%] pb-4 aaaa   absolute  ml-[65vh] left-[5.1%] text-white "> {'<=  '}Contact Me</h1>
+          {/* <h1 className=" fontmanual1 h-auto text-9xl w-[105%] pb-4   text-end  "> {'<=  '}Contact Me</h1> */}
           </div>
 
          <div className="h-[270px] w-[100%] mb-16  pl-24">

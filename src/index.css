@@ -5,7 +5,7 @@
 :root  {
   
     font-family: 'Young Serif', serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     scroll-behavior: smooth;
    
 }
@@ -44,6 +44,7 @@ font-family: 'Young Serif', serif;
     
     }
 canvas { width : 100% !important ;
+  
        color: transparent !important;
        position: absolute  !important ;
        display: flex !important;
@@ -61,5 +62,66 @@ canvas { width : 100% !important ;
 
 h1{
     filter: contrast(1.5);
+
+}
+
+.bef::before{
+    font-family: 'Dancing Script', cursive;
+    -webkit-text-stroke: 2px black;
+    content: "Aman Agrawal";
+    color: black;
+    display: block;
+    position:absolute;
+    left: -7px
+}
+
+.about::before{
+    font-family: 'Dancing Script', cursive;
+    -webkit-text-stroke: 2px black;
+    content: "About Me =>";
+    color: black;
+    display: block;
+    position:absolute;
+    left: -7px
+}
+
+.abo::before{
+    font-family: 'Dancing Script', cursive;
+    -webkit-text-stroke: 2px black;
+    content: "Skills Gained =>";
+    color: black;
+    display: block;
+    position:absolute;
+    left: -7px
+}
+
+.abou::before{
+    font-family: 'Dancing Script', cursive;
+    -webkit-text-stroke: 2px black;
+    content: "<= Education";
+    color: black;
+    display: block;
+    position:absolute;
+    left: -7px
+}
+
+.ab::before{
+    font-family: 'Dancing Script', cursive;
+    -webkit-text-stroke: 2px black;
+    content: "Projects =>";
+    color: black;
+    display: block;
+    position:absolute;
+    left: -7px
+}
+
+.aaaa::before{
+    font-family: 'Dancing Script', cursive;
+    -webkit-text-stroke: 2px black;
+    content: "<= Contact Me";
+    color: black;
+    display: block;
+    position:absolute;
+    left: -7px
 
 }
