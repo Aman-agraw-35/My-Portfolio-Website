@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
- import * as THREE from 'three';
-import { particlesCursor } from 'threejs-toys';
+// import * as THREE from 'three';
+import { particlesCursor } from 'threejs-toys'; // Use the correct import path based on your project structure
 
 function ThreeJSComponent() {
   const canvasRef = useRef(null);
@@ -13,11 +13,11 @@ function ThreeJSComponent() {
       return;
     }
 
-   const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
+    // const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
 
     const pc = particlesCursor({
       el: document.getElementById('app'),
-      gpgpuSize: 512,
+      gpuSize: 512,
       colors: [0x1d9ae8, 0x1d9ae8],
       color: 0x1d9ae8,
       coordScale: 0.15,
