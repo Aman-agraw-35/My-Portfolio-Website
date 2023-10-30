@@ -6,7 +6,7 @@ function Email(){
     
   const hover = () => {
     const trap = document.getElementById("amantrap");
-    const cod = Math.floor(Math.random() * 130) * 10; 
+    const cod = Math.floor(Math.random() * 80) * 10; 
     trap.style.marginLeft = cod + "px";
   }
 
@@ -50,8 +50,10 @@ function Email(){
     <form onSubmit={handleSubmit}  >
     <input name="user_name" onChange={ (e) => setName(e.target.value)} className="mx-10 my-3 px-3 text-lg py-2 bg-[rgba(0,0,0,0.6)] rounded-sm text-white " placeholder="Enter your Name" value={name} type="text" /> <br />
     <input name="user_email" onChange={ (e) => setEmail(e.target.value)} className="mx-10 mb-3 px-3 text-lg py-2 bg-[rgba(0,0,0,0.6)] rounded-sm text-white " placeholder="Enter your Email" value={email} type="email" /> <br />
-<textarea name="message" value={message} onChange={ (e) => setMessage(e.target.value)}  className="mx-10 text-lg px-3 py-2 bg-[rgba(0,0,0,0.6)] h-[50px] w-[1200px] text-white text-start flex flex-nowrap rounded-sm  placeholder:align-top " placeholder="Your message for me." type="message" />
-    <input onClick={() => alert("Message sent successfully.")} onMouseEnter={hover} id="amantrap" className="mx-10  w-[90px] my-3 px-3 text-lg py-2 font-semibold bg-[white] cursor-pointer shadow-md shadow-black text-black rounded-lg hover:bg-[rgba(0,0,0,0.5)]   "  type="button" value="Submit"  />
+<textarea name="message" value={message} onChange={ (e) => setMessage(e.target.value)}  className="mx-10 text-lg px-3 py-2 bg-[rgba(0,0,0,0.6)] h-[50px] lg:w-[90%]  w-[630px]  text-white text-start flex flex-nowrap rounded-sm  placeholder:align-top " placeholder="Your message for me." type="message" />
+    <input onClick={() => {  setName('');
+        setEmail('');
+        setMessage(''); alert("Message sent successfully.")}} onMouseEnter={hover} id="amantrap" className="mx-10  w-[90px] my-3 px-3 text-lg py-2 font-semibold bg-[white] cursor-pointer shadow-md shadow-black text-black rounded-lg hover:bg-[rgba(0,0,0,0.5)]   "  type="button" value="Submit"  />
  </form>
    )};
 
