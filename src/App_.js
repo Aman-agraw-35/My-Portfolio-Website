@@ -38,8 +38,8 @@ export default function App_(){
            </div>
           </div>
           <div className="h-fit w-[44%] flex pt-28   ">
-            <div className="md:h-[440px] h-[300px] w-[440px]  rounded-full  flex my-[100px] ">
-               <img className='md:h-[440px] h-[300px] w-[440px] w   object-fill bg-center object-bottom rounded-full brightness-75'src="/resources/pp.jpeg" alt="" />
+            <div className="md:h-[440px] h-[300px] w-[440px]   rounded-full  flex my-[100px] ">
+               <img className='md:h-[440px] h-[300px] w-[440px]    object-fill rounded-full brightness-75'src="/resources/pp.jpeg" alt="" />
             </div>
           </div>
        </div>
@@ -71,7 +71,7 @@ export default function App_(){
 
        <div className="h-[550px]  w-full   xl:pl-36  px-24 sm:px-5 flex flex-col   ">
           <div className="xl:h-auto h-fit  xl:pl-0 md:pl-16 xl:w-[80%] w-full relative ">
-          <h1 className=" fontmanual h-auto text-[6vh] xl:text-[18vh] lg:text-[15vh] items-center xl:items-stretch w-[100%] absolute  text-white abo pb-42 xl:pt-36 2xl:pt-30 ">Skills Gained {'=>'}</h1>
+          <h1 className=" fontmanual h-auto text-[6vh] xl:text-[18vh] lg:text-[15vh] items-center xl:items-stretch lg:w-[100%] w-[80%] absolute  text-white abo pb-42 xl:pt-36 2xl:pt-30 ">Skills Gained {'=>'}</h1>
 
           {/* <h1 className=" fontmanual1 h-auto text-9xl w-[100%] pb-4 pt-36 abo">Skills Gained {'=>'}</h1> */}
        </div>
