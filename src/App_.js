@@ -37,7 +37,7 @@ export default function App_(){
            <h1 className="  h-auto text-2xl xl:w-[55%] border-l-4 border-l-[#515151] left:[100px] w-[100%] pl-6 xl:text-left  fontmanual2 text-[#515151] ">A grooming web developer and an engineering student at IIIT Bhopal.</h1>
            </div>
           </div>
-          <div className="h-fit w-[44%] flex pt-28   ">
+          <div className="h-fit w-[44%] flex xl:pt-28 pt-5  ">
             <div className="md:h-[440px] h-[300px] w-[440px]   rounded-full  flex my-[100px] ">
                <img className='md:h-[440px] h-[300px] w-[440px]    object-fill rounded-full brightness-75'src="/resources/pp.jpeg" alt="" />
             </div>
@@ -80,11 +80,11 @@ export default function App_(){
                    <div class=" flex flex-row items-center brightness-75 "><FontAwesomeIcon icon={faCss3Alt} size="2xl" style={{color: "#2d53e7", marginLeft :"5px" }} /><h1 className="text-2xl pl-8 ">Css</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
                    <div class="flex flex-row items-center brightness-75 "><FontAwesomeIcon icon={faSquareJs} size="2xl" style={{color: "#f7a025",}} /><h1 className="text-2xl pl-8 ">Javascript</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
                    <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg object-cover " src="https://sandny.com/wp-content/uploads/2021/07/logo-og-730x350.png" alt="React" /><h1 className="text-2xl pl-6 ">React</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
-                   <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg"  src="https://icons-for-free.com/iconfiles/png/512/js+library+long+shadow+nodejs+web+icon-1320184850167478047.png" alt="Node" /><h1 className="text-2xl pl-6 ">Node</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
+                   <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg object-cover"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ki9EwgSEDLZx2dajFEG_KW-oshuGGq5p5g&usqp=CAU" alt="Node" /><h1 className="text-2xl pl-6 ">Node</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
                    <div class="flex flex-row items-center brightness-75"><img className="h-[65px] w-[65px] rounded-lg" src="https://play-lh.googleusercontent.com/YN4OEsoWsU1QrZFcwWlI8uuGhDKc4RAlP56FFyL03VFegD5tWjZ5cNWHocC_QRE_TvA" alt="tailwind" /><h1 className="text-2xl pl-8 ">Tailwind</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div> 
                    <div class="flex flex-row items-center brightness-75"><img className="h-[65px] w-[65px] rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk6UzrSiHRjo-rGRwOy8sSYgr9dVA8V6b71A&usqp=CAU" alt="Bootstrap" /><h1 className="text-2xl pl-6 ">Bootstrap</h1><span className="pl-4 pb-2" arial-label="6/6"></span></div>
                    <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ8WjzJOqg8FnUhwR-ybrlznTAnfavaF2CnZ-NokuOEcu5PpUOMtzdXJJilatz5RXY_WE&usqp=CAU" alt="MongoDb" /><h1 className="text-2xl pl-6  ">MongoDb</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
-                   <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg object-cover " src="https://www.freecodecamp.org/news/content/images/2021/08/vscode.png" alt="VsCode" /><h1 className="text-2xl pl-9 ">VScode</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
+                   <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg object-cover " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQmnM1Tu-Xja-ty2icu9JUqIvhnZB1PgKkcQ&usqp=CAU" alt="NextJs" /><h1 className="text-2xl pl-9 ">NextJs</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
        </div>
 
        </div>
