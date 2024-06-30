@@ -104,7 +104,7 @@ export default function App_(){
             </div></a> 
             </div>
             <div className="h-[250px] w-[100%]   xl:ml-8 ">
-             <h1 className="  h-auto text-2xl w-[100%] xl:ml-28 ml-24 pl-8 fontmanual2 border-l-4   border-l-[#515151]  text-[#515151] ">2nd Year Undergraduate in B-Tech <br />Electronics and Communication Department, 2022-2026 <br />Indian Institute of Information Technology Bhopal<br /><br/>
+             <h1 className="  h-auto text-2xl w-[100%] xl:ml-28 ml-24 pl-8 fontmanual2 border-l-4   border-l-[#515151]  text-[#515151] ">3rd Year Undergraduate in B-Tech <br />Electronics and Communication Department, 2022-2026 <br />Indian Institute of Information Technology Bhopal<br /><br/>
 
 Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted many events and guided over 500 students through GDSC .
 </h1>
