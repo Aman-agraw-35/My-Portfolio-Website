@@ -6,7 +6,7 @@ import ThreeJSComponent from   "./Canvas";
 
 export default function App_(){
     return(
-        <>
+        <>  
       <ThreeJSComponent/> 
     <div  className="h-[auto] w-full bg-gradient-to-r  from-[#fb8ff0] to-cyan-400 relative opacity-[1] brightness-[140%]  flex flex-col " id="app" >
        
