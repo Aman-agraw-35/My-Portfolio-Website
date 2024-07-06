@@ -79,7 +79,7 @@ export default function App_(){
                    <div class=" flex flex-row items-center brightness-75 "><FontAwesomeIcon icon={faHtml5} size="2xl" style={{color: "#e75608", marginLeft :"5px" }}  /><h1 className="text-2xl pl-8 ">Html</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
                    <div class=" flex flex-row items-center brightness-75 "><FontAwesomeIcon icon={faCss3Alt} size="2xl" style={{color: "#2d53e7", marginLeft :"5px" }} /><h1 className="text-2xl pl-8 ">Css</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
                    <div class="flex flex-row items-center brightness-75 "><FontAwesomeIcon icon={faSquareJs} size="2xl" style={{color: "#f7a025",}} /><h1 className="text-2xl pl-8 ">Javascript</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
-                   <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg object-cover " src="https://sandny.com/wp-content/uploads/2021/07/logo-og-730x350.png" alt="React" /><h1 className="text-2xl pl-6 ">React</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
+                   <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg object-cover " src="https://static-00.iconduck.com/assets.00/react-icon-256x256-2yyldh38.png" alt="React" /><h1 className="text-2xl pl-6 ">React</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
                    <div class="flex flex-row items-center brightness-75 "><img className="h-[65px] w-[65px] rounded-lg"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ki9EwgSEDLZx2dajFEG_KW-oshuGGq5p5g&usqp=CAU" alt="Node" /><h1 className="text-2xl pl-6 ">Node</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div>
                    <div class="flex flex-row items-center brightness-75"><img className="h-[65px] w-[65px] rounded-lg" src="https://play-lh.googleusercontent.com/YN4OEsoWsU1QrZFcwWlI8uuGhDKc4RAlP56FFyL03VFegD5tWjZ5cNWHocC_QRE_TvA" alt="tailwind" /><h1 className="text-2xl pl-8 ">Tailwind</h1><span className="pl-4 pb-3" arial-label="6/6"></span></div> 
                    <div class="flex flex-row items-center brightness-75"><img className="h-[65px] w-[65px] rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk6UzrSiHRjo-rGRwOy8sSYgr9dVA8V6b71A&usqp=CAU" alt="Bootstrap" /><h1 className="text-2xl pl-6 ">Bootstrap</h1><span className="pl-4 pb-2" arial-label="6/6"></span></div>
@@ -113,17 +113,19 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
        </div>
 
 {/* .................................................................................Projects.................................................................................................... */}
-       <div className="h-[650px]   w-full   flex flex-col ">
+       <div className="h-max   w-full   flex flex-col ">
           <div className="xl:h-auto h-[100px] w-[70%]  pl-24 xl:pl-36  ">
           <h1 className=" fontmanual h-auto  text-[6vh] xl:text-[18vh] lg:text-[15vh] xl:w-[70%] w-[85%] ab absolute   text-white  pb-12 pt-24">Projects {'=>'}</h1>
 
-          {/* <h1 className=" fontmanual1 h-auto text-9xl w-[105%] pb-12 pt-24">Projects {'=>'}</h1> */}
        </div>
-       <div class="xl:h-[350px] h-[50px] gap-4  md:w-[82%] w-[75%] fontmanual2 grid grid-cols-3 grid-rows-1 mx-auto  xl:mt-[40vh] mt-[200px]   text-[#515151]  ">
+       <div class="h-max gap-5  md:w-[82%] w-[75%] fontmanual2 grid grid-cols-3 grid-rows-1 mx-auto  xl:mt-[40vh] mt-[200px]   text-[#515151]  ">
+                   <div class="h-[90%] flex flex-col items-center rounded-lg brightness-75 "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/Gunsmart" title="View Code "><img className="object-cover  rounded-3xl h-[250px] w-[100%] mb-3 " src="https://static.wixstatic.com/media/8d1f6c_ae1eab54af5a4a409036fed18dda5efc.jpg" alt="Guns Mart" /> </a> <h1 className="text-2xl">Gunsmart</h1></div>
                    <div class="h-[90%] flex flex-col items-center rounded-lg brightness-75 "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/GHOST-GAMES-" title="View Code "> <img className="object-cover rounded-3xl h-[250px] w-[100%] mb-3 " src="https://moewalls.com/wp-content/uploads/2023/01/ghost-call-of-duty-modern-warfare-ii-thumb-728x410.jpg" alt="" /> </a> <h1 className="text-2xl">Ghost Games</h1></div>
+                   <div class="h-[90%] flex flex-col items-center rounded-lg brightness-75 "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/SOLUTIONS-CHALLENGE-24-PROJECT" title="View Code "><img className="object-cover  rounded-3xl h-[250px] w-[100%] mb-3 " src="https://curlytales.com/wp-content/uploads/2020/04/Dubai-based-charities-distribute-over-31570-daily-meals-to-underprivileged-people.png" alt="Jan Sahayata" /> </a> <h1 className="text-2xl">Jan Sahayta(Google's Solutions Challenge 2024)</h1></div>
                    <div class="h-[90%] flex flex-col items-center rounded-lg brightness-75 "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/Netflix-Clone" title="View Code " ><img className="object-cover rounded-3xl h-[250px] w-[100%] mb-3 " src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV0ZmxpeCUyMGxvZ298ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" /> </a> <h1 className="text-2xl">Netflix Clone</h1></div>
                    <div class="h-[90%] flex flex-col items-center rounded-lg brightness-75 "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/My-Portfolio-Website" title="View Code "><img className="object-cover  rounded-3xl h-[250px] w-[100%] mb-3 " src="https://as1.ftcdn.net/v2/jpg/03/77/80/70/1000_F_377807035_Gk9hp790Ync54P4kyZ8CNV5NCUGgWSuc.jpg" alt="" /> </a> <h1 className="text-2xl">Portfolio Website</h1></div>
-                   {/* <div class="h-[90%] flex flex-col items-center rounded-lg "><img className="object-cover rounded-3xl h-[230%] w-[100%] mb-3 " src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV0ZmxpeCUyMGxvZ298ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" /><h1 className="text-2xl">Netflix Clone</h1></div> */}
+                   <div class="h-[90%] flex flex-col items-center rounded-lg brightness-75 "> <a target="_blank" rel="noreferrer" href="https://github.com/Aman-agraw-35/Google-keep-clone" title="View Code "><img className="object-cover  rounded-3xl h-[250px] w-[100%] mb-3 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwX8l9SlO0FrYJ-_BoZVAMNAavApyQyzWcBw&s" alt="Google keep clone" /> </a> <h1 className="text-2xl">Google Keep Clone</h1></div>
+
                    
        </div>
 
@@ -136,7 +138,7 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
       {/* ...............................................................................Contact Me............................................................................................ */}
 
 
-      <div className="xl:h-auto h-max  w-full  xl:pr-36 xl:pt-12 pt-24 flex flex-col pb-12 xl:pb-0 ">
+      <div className="xl:h-max h-max  w-full  xl:pr-36 xl:pt-12 pt-24 flex flex-col pb-12 xl:pb-0 ">
           <div className="xl:h-[170px] h-[170px] xl:w-[84%] w-[100%] ">
           <h1 className=" fontmanual h-auto  ml-36 text-[6vh] xl:text-[18vh]  lg:text-[15vh] xl:w-[60%] w-[80%] pb-4 aaaa   absolute  xl:ml-[36%]    text-white "> {'<=  '}Contact Me</h1>
           {/* <h1 className=" fontmanual1 h-auto text-9xl w-[105%] pb-4   text-end  "> {'<=  '}Contact Me</h1> */}
