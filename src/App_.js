@@ -14,7 +14,7 @@ export default function App_(){
       }
        <div className="h-28 w-[100%]  justify-center align-middle  items-center flex ">
         <div className="h-[55%] w-[82%] bg-[rgba(0,0,0,0.25)] rounded-[50px] justify-between border-[#382268] border-2 flex flex-row">
-        <a className="no-underline brightness-75 " href="https://drive.google.com/file/d/1B1A_kotirCP06E_7PJpgNvb5dsWP5U3C/view?usp=share_link" target="_blank" rel="noreferrer" ><div className="h-[100%] w-[200px] rounded-lg  fontmanual  text-black ml-2 flex items-center"><button className="h-[80%] w-[100%] border-[2px] shadow-md shadow-black border-cyan-800 rounded-3xl bg-[rgb(117,255,253)] text-3xl font-black ">My Resume</button></div> 
+        <a className="no-underline brightness-75 " href="https://drive.google.com/file/d/1_y9l9mNPAc9FSRJRVhk0IGgXM_N8YzXR/view?usp=drive_link" target="_blank" rel="noreferrer" ><div className="h-[100%] w-[200px] rounded-lg  fontmanual  text-black ml-2 flex items-center"><button className="h-[80%] w-[100%] border-[2px] shadow-md shadow-black border-cyan-800 rounded-3xl bg-[rgb(117,255,253)] text-3xl font-black ">My Resume</button></div> 
         </a>
             <div className="h-[100%] w-[290px]  align-middle  items-center justify-center flex flex-row flex-end ">
                   <div className="w-[33px] h-[33px] fill rounded-full brightness-75  my-2 mx-2 "><a href="https://t.me/amanagraw35" rel="noreferrer" target="_blank" ><FontAwesomeIcon icon={faTelegram} size="2xl" style={{color: "#212529",}}  /></a></div>
