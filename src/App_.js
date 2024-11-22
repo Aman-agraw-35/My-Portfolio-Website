@@ -54,7 +54,7 @@ export default function App_(){
           <h1 className=" fontmanual about h-auto text-[6vh] lg:text-[14vh] xl:text-[18vh] absolute z-10 text-white  xl:w-[50%] w-[90%] pb-4  xl:pt-28">About Me ={`>`} </h1>
           {/* <h1 className=" fontmanual1 h-auto text-9xl w-[100%] pb-4 pt-28">About Me ={`>`} </h1> */}
           <h1 className="  h-auto text-2xl xl:w-[82%] w-full fontmanual2 text-[#515151] border-l-4 xl:mt-[35%] lg:mt-[15%]] mt-[20%] border-l-[#515151]   xl:ml-40 pl-10 ">I'm Aman Agrawal, a dedicated student at IIIT Bhopal with a strong
-           academic foundation, boasting a CGPA of 8.5. I've achieved the prestigious milestone of clearing the IIT JEE, showcasing my academic prowess. Beyond the classroom, I'm deeply passionate about 
+           academic foundation, boasting a CGPA of 8.58. I've achieved the prestigious milestone of clearing the IIT JEE, showcasing my academic prowess. Beyond the classroom, I'm deeply passionate about 
            web development and am actively engaged in learning Data Structures and Algorithms (DSA) and Web Development . This blend of technical acumen and problem-solving skills has made me an
              adept coder. Additionally, I enjoy the strategic intricacies of chess, am an enthusiastic cricketer. My diverse interests reflect my drive for excellence and continuous self-improvement.</h1>
          
