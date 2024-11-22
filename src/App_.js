@@ -31,10 +31,10 @@ export default function App_(){
 
         <div className="xl:h-[70vh] w-full  xl:pl-36 pl:0  items-center flex flex-col-reverse xl:flex-row pb-20 xl:pb-0 ">
           <div className="h-auto xl:w-[56%] w-[84%]  flex flex-col">
-          <h1 className="  h-auto   text-[7vh]  lg:text-[15vh] xl:text-[15vh]  2xl:text-[18vh] w-[100%] text-white  pb-4 relative xl:pt-24 " >Aman Agrawal</h1>
+          <h1 className=" fontmanual h-auto   text-[7vh]  lg:text-[15vh] xl:text-[15vh]  2xl:text-[18vh] w-[100%] text-white bef  pb-4 relative xl:pt-24 " >Aman Agrawal</h1>
           <h1 className="  h-auto text-4xl w-[100%] fontmanual2xl:text-start  text-[#515151] ">I'm a full-stack web magician and a DevOps virtuoso.</h1>
            <div className='h-[97px] w-[290] mt-8  ' >
-           <h1 className="  h-auto text-2xl xl:w-[55%] border-l-4 border-l-[#515151] left:[100px] w-[100%] pl-6 xl:text-left  fontmanual2 text-[#515151] ">A grooming developer and an engineering student at IIIT Bhopal.</h1>
+           <h1 className="  h-auto text-2xl xl:w-[55%] border-l-4 border-l-[#515151] left:[100px] w-[100%] pl-6 xl:text-left  fontmanual2 text-[#515151] ">A grooming web developer and an engineering student at IIIT Bhopal.</h1>
            </div>
           </div>
           <div className="h-fit w-[44%] flex xl:pt-28   ">
@@ -51,7 +51,7 @@ export default function App_(){
        <div className="h-[650px] w-full  xl:pr-36 items-center xl:items-stretch   flex flex-col xl:flex-row-reverse   ">
           <div className="h-auto xl:w-[60%] w:[90%]  md:px-24 pl-10 xl:px-0 ">
 
-          <h1 className="  h-auto text-[6vh] lg:text-[14vh] xl:text-[18vh] absolute z-10 text-white  xl:w-[50%] w-[90%] pb-4  xl:pt-28">About Me ={`>`} </h1>
+          <h1 className=" fontmanual about h-auto text-[6vh] lg:text-[14vh] xl:text-[18vh] absolute z-10 text-white  xl:w-[50%] w-[90%] pb-4  xl:pt-28">About Me ={`>`} </h1>
           {/* <h1 className=" fontmanual1 h-auto text-9xl w-[100%] pb-4 pt-28">About Me ={`>`} </h1> */}
           <h1 className="  h-auto text-2xl xl:w-[82%] w-full fontmanual2 text-[#515151] border-l-4 xl:mt-[35%] lg:mt-[15%]] mt-[20%] border-l-[#515151]   xl:ml-40 pl-10 ">I'm Aman Agrawal, a dedicated student at IIIT Bhopal with a strong
            academic foundation, boasting a CGPA of 8.58. I've achieved the prestigious milestone of clearing the IIT JEE, showcasing my academic prowess. Beyond the classroom, I'm deeply passionate about 
@@ -71,7 +71,7 @@ export default function App_(){
 
        <div className="h-[550px]  w-full   xl:pl-36  px-24 sm:px-5 flex flex-col   ">
           <div className="xl:h-auto h-fit  xl:pl-0 md:pl-16 xl:w-[80%] w-full relative ">
-          <h1 className="  h-auto text-[5vh] xl:text-[18vh] lg:text-[15vh] items-center xl:items-stretch lg:w-[100%] w-[80%] absolute  text-white  pb-42 xl:pt-36 2xl:pt-30 ">Skills Gained {'=>'}</h1>
+          <h1 className=" fontmanual h-auto text-[5vh] xl:text-[18vh] lg:text-[15vh] items-center xl:items-stretch lg:w-[100%] w-[80%] absolute  text-white abo pb-42 xl:pt-36 2xl:pt-30 ">Skills Gained {'=>'}</h1>
 
           {/* <h1 className=" fontmanual1 h-auto text-9xl w-[100%] pb-4 pt-36 abo">Skills Gained {'=>'}</h1> */}
        </div>
@@ -93,7 +93,7 @@ export default function App_(){
 
        <div className="h-auto  w-full  pr-36   flex flex-col mt-20 ">
           <div className="h-[170px] xl:w-[84%] w-[100%]  ">
-          <h1 className=" h-auto  text-[6vh] xl:text-[18vh] w-[70%] lg:text-[15vh] xl:w-[50%] pb-4 absolute left-[210px] xl:left-[37%] text-white "> {'<= '}Education</h1>
+          <h1 className=" fontmanual h-auto  text-[6vh] xl:text-[18vh] w-[70%] lg:text-[15vh] xl:w-[50%] pb-4 absolute left-[210px] xl:left-[37%] text-white abou "> {'<= '}Education</h1>
 
           {/* <h1 className=" fontmanual1 h-auto text-9xl w-[100.6%] pb-4   text-end  "> {'<= '}Education</h1> */}
           </div>
@@ -115,7 +115,7 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
 {/* .................................................................................Projects.................................................................................................... */}
        <div className="h-max   w-full   flex flex-col ">
           <div className="xl:h-auto h-[100px] w-[70%]  pl-24 xl:pl-36  ">
-          <h1 className="  h-auto  text-[6vh] xl:text-[18vh] lg:text-[15vh] xl:w-[70%] w-[85%]  absolute   text-white  pb-12 pt-24">Projects {'=>'}</h1>
+          <h1 className=" fontmanual h-auto  text-[6vh] xl:text-[18vh] lg:text-[15vh] xl:w-[70%] w-[85%] ab absolute   text-white  pb-12 pt-24">Projects {'=>'}</h1>
 
        </div>
        <div class="h-max gap-5  md:w-[82%] w-[75%] fontmanual2 grid grid-cols-3 grid-rows-1 mx-auto  xl:mt-[40vh] mt-[200px]   text-[#515151]  ">
@@ -141,7 +141,7 @@ Work Experience: <br /> Event Co-ordinater at GDSC IIIT BHOPAL <br /> Conducted 
 
       <div className="xl:h-max h-max  w-full  xl:pr-36 xl:pt-12 pt-24 flex flex-col pb-12 xl:pb-0 ">
           <div className="xl:h-[170px] h-[170px] xl:w-[84%] w-[100%] ">
-          <h1 className="  h-auto  ml-36 text-[6vh] xl:text-[18vh]  lg:text-[15vh] xl:w-[60%] w-[80%] pb-4   absolute  xl:ml-[36%]    text-white "> {'<=  '}Contact Me</h1>
+          <h1 className=" fontmanual h-auto  ml-36 text-[6vh] xl:text-[18vh]  lg:text-[15vh] xl:w-[60%] w-[80%] pb-4 aaaa   absolute  xl:ml-[36%]    text-white "> {'<=  '}Contact Me</h1>
           {/* <h1 className=" fontmanual1 h-auto text-9xl w-[105%] pb-4   text-end  "> {'<=  '}Contact Me</h1> */}
           </div>
 
