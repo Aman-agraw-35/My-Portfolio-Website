@@ -32,7 +32,7 @@ export default function App_(){
         <div className="xl:h-[70vh] w-full  xl:pl-36 pl:0  items-center flex flex-col-reverse xl:flex-row pb-20 xl:pb-0 ">
           <div className="h-auto xl:w-[56%] w-[84%]  flex flex-col">
           <h1 className=" fontmanual h-auto   text-[7vh]  lg:text-[15vh] xl:text-[15vh]  2xl:text-[18vh] w-[100%] text-white bef  pb-4 relative xl:pt-24 " >Aman Agrawal</h1>
-          <h1 className="  h-auto text-4xl w-[100%] fontmanual2xl:text-start  text-[#515151] ">I'm a full-stack web magician and a DevOps Virtuoso.</h1>
+          <h1 className="  h-auto text-4xl w-[100%] fontmanual2xl:text-start  text-[#515151] ">I'm a full-stack web magician and a DevOps virtuoso.</h1>
            <div className='h-[97px] w-[290] mt-8  ' >
            <h1 className="  h-auto text-2xl xl:w-[55%] border-l-4 border-l-[#515151] left:[100px] w-[100%] pl-6 xl:text-left  fontmanual2 text-[#515151] ">A grooming web developer and an engineering student at IIIT Bhopal.</h1>
            </div>
